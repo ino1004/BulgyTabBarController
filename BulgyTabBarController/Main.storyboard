@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Vj-0J-fxy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--會員-->
+        <scene sceneID="59w-3u-QKH">
+            <objects>
+                <viewController id="LJY-hF-Ogu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ong-33-tjh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.78039215689999997" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1F1-hd-q2v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="會員" image="Triangle" selectedImage="TriangleSelected" id="gNu-7Q-85q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1A-a5-nHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1274" y="-285"/>
+        </scene>
+        <!--收藏-->
+        <scene sceneID="vM4-Ck-LOt">
+            <objects>
+                <viewController id="2sF-6x-Wab" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mQD-kW-PnX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="feX-yq-ZMD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="收藏" image="Circle" selectedImage="CircleSelected" id="9TR-ro-8oE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="otP-ey-hb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="406"/>
+        </scene>
+        <!--搜尋-->
+        <scene sceneID="BKD-Hy-lbe">
+            <objects>
+                <viewController id="4HY-3q-Cf5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DAc-wN-OJc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.23921568630000001" green="0.67450980390000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vTl-ce-bnX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="3" title="搜尋" image="Star" selectedImage="StarSelected" id="1hd-4l-kCm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCb-DY-e0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1973" y="397"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="BIY-0V-3P7">
+            <objects>
+                <viewController id="bgT-da-L4R" customClass="ViewController" customModule="BulgyTabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VN7-Ps-8Nf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="A9G-yl-a4I"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首頁" image="Square" selectedImage="SquareSelected" id="vyt-ED-duM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wli-yb-rdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="-990"/>
+        </scene>
+        <!--Bulgy Tab Bar Controller-->
+        <scene sceneID="fNo-DQ-4aL">
+            <objects>
+                <tabBarController id="6Vj-0J-fxy" customClass="BulgyTabBarController" customModule="BulgyTabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kEL-Bh-GQQ" customClass="BulgyTabBar" customModule="BulgyTabBarController" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bgT-da-L4R" kind="relationship" relationship="viewControllers" id="S4m-W6-zJ5"/>
+                        <segue destination="LJY-hF-Ogu" kind="relationship" relationship="viewControllers" id="mem-2H-Z7Y"/>
+                        <segue destination="2sF-6x-Wab" kind="relationship" relationship="viewControllers" id="05E-0G-Sgd"/>
+                        <segue destination="4HY-3q-Cf5" kind="relationship" relationship="viewControllers" id="xgh-QH-BUR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAA-tH-LfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="-617"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Circle" width="30" height="30"/>
+        <image name="CircleSelected" width="30" height="30"/>
+        <image name="Square" width="30" height="30"/>
+        <image name="SquareSelected" width="30" height="30"/>
+        <image name="Star" width="30" height="30"/>
+        <image name="StarSelected" width="30" height="30"/>
+        <image name="Triangle" width="30" height="30"/>
+        <image name="TriangleSelected" width="30" height="30"/>
+    </resources>
+</document>

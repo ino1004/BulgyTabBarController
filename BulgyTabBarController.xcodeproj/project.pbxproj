@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		693F85B8221F9B6D00C46F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693F85B7221F9B6D00C46F93 /* AppDelegate.swift */; };
 		693F85BA221F9B6D00C46F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693F85B9221F9B6D00C46F93 /* ViewController.swift */; };
-		693F85BD221F9B6D00C46F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693F85BB221F9B6D00C46F93 /* Main.storyboard */; };
-		693F85BF221F9B6E00C46F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693F85BE221F9B6E00C46F93 /* Assets.xcassets */; };
 		693F85C2221F9B6E00C46F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693F85C0221F9B6E00C46F93 /* LaunchScreen.storyboard */; };
+		693F85CB221F9BC500C46F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693F85CA221F9BC500C46F93 /* Assets.xcassets */; };
+		693F85D9221F9C6D00C46F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693F85D8221F9C6D00C46F93 /* Main.storyboard */; };
+		693F85DB221F9C8C00C46F93 /* BulgyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693F85DA221F9C8C00C46F93 /* BulgyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		693F85B4221F9B6D00C46F93 /* BulgyTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulgyTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		693F85B7221F9B6D00C46F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		693F85B9221F9B6D00C46F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		693F85BC221F9B6D00C46F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		693F85BE221F9B6E00C46F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		693F85C1221F9B6E00C46F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		693F85C3221F9B6E00C46F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693F85CA221F9BC500C46F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		693F85D8221F9C6D00C46F93 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		693F85DA221F9C8C00C46F93 /* BulgyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulgyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			children = (
 				693F85B7221F9B6D00C46F93 /* AppDelegate.swift */,
 				693F85B9221F9B6D00C46F93 /* ViewController.swift */,
-				693F85BB221F9B6D00C46F93 /* Main.storyboard */,
-				693F85BE221F9B6E00C46F93 /* Assets.xcassets */,
+				693F85DA221F9C8C00C46F93 /* BulgyTabBarController.swift */,
+				693F85D8221F9C6D00C46F93 /* Main.storyboard */,
+				693F85CA221F9BC500C46F93 /* Assets.xcassets */,
 				693F85C0221F9B6E00C46F93 /* LaunchScreen.storyboard */,
 				693F85C3221F9B6E00C46F93 /* Info.plist */,
 			);
@@ -122,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693F85D9221F9C6D00C46F93 /* Main.storyboard in Resources */,
+				693F85CB221F9BC500C46F93 /* Assets.xcassets in Resources */,
 				693F85C2221F9B6E00C46F93 /* LaunchScreen.storyboard in Resources */,
-				693F85BF221F9B6E00C46F93 /* Assets.xcassets in Resources */,
-				693F85BD221F9B6D00C46F93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				693F85BA221F9B6D00C46F93 /* ViewController.swift in Sources */,
+				693F85DB221F9C8C00C46F93 /* BulgyTabBarController.swift in Sources */,
 				693F85B8221F9B6D00C46F93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		693F85BB221F9B6D00C46F93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				693F85BC221F9B6D00C46F93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		693F85C0221F9B6E00C46F93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
